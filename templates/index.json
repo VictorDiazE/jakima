@@ -324,18 +324,18 @@
     "scrolling-text": {
       "type": "scrolling-text",
       "custom_css": [
-        "marquee-text span{font-weight: 900}"
+        "marquee-text span {font-weight: 900;}"
       ],
       "settings": {
         "full_width": true,
-        "text": "Experience the Jakima Difference",
-        "text_size": "large",
+        "text": "EXPERIENCE JAKIMA DIFFERENCE",
+        "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#c3072b",
         "text_gradient": ""
       }
     },
