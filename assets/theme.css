@@ -14,7 +14,10 @@ html {
 }
 
 @font-face {
-font-family: "Codec Pro";src: url({{ "CodecPro-Regular" | asset_url }}) format("ttf");
+font-family: "Codec Pro";src: url({{ "CodecPro-Regular.ttf" | asset_url }}) format("ttf");
+}
+@font-face {
+font-family: "Codec Pro Italic";src: url({{ "CodecPro-Italic.ttf" | asset_url }}) format("ttf");
 }
 
 body {
