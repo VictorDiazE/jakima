@@ -13,6 +13,10 @@ html {
   line-height: 1.5;
 }
 
+@font-face {
+font-family: "Codec Pro";src: url({{ "CodecPro-Regular" | asset_url }}) format("ttf");
+}
+
 body {
   --background: var(--background-primary);
   --text-color: var(--text-primary);
