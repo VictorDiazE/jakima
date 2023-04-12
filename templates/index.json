@@ -235,6 +235,24 @@
         "background_gradient": ""
       }
     },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "marquee-text span {font-weight: 900;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "EXPERIENCE JAKIMA DIFFERENCE",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#c3072b",
+        "text_gradient": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -321,24 +339,6 @@
         "heading_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "custom_css": [
-        "marquee-text span {font-weight: 900;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "text": "EXPERIENCE JAKIMA DIFFERENCE",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#c3072b",
-        "text_gradient": ""
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -373,7 +373,7 @@
           "type": "item",
           "settings": {
             "title": "100%",
-            "subheading": "OUR COMMITMENT TO HIGH HORSE PERFORMANCE:",
+            "subheading": "COMMITED TO HIGH HORSE PERFORMANCE:",
             "content": "<p>With our High Horse Performance line of products, we offer cutting-edge formulas that provide superior nutrition and support for high-performance horses. Whether you're a competitive rider or a professional trainer, our products are designed to help your horse perform at their best in the arena. From digestive health supplements to performance-boosting formulas, our High Horse Performance products are trusted by equestrians for their effectiveness and reliability.<\/p>",
             "button_text": "LEARN MORE",
             "button_url": "",
@@ -883,8 +883,8 @@
     "slideshow",
     "collection-list",
     "media-grid",
-    "image-link-blocks",
     "scrolling-text",
+    "image-link-blocks",
     "featured-collection",
     "impact-text",
     "image-with-text-overlay",
