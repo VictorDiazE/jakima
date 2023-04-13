@@ -395,10 +395,10 @@
         "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "#c3072b",
+        "heading_text_color": "{{ shop.brand.colors.secondary[0].background }}",
         "heading_gradient": "linear-gradient(180deg, rgba(195, 7, 43, 1) 32%, rgba(156, 160, 164, 0.08) 97%)",
-        "text_color": "#0d2543",
-        "button_background": "",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "button_background": "{{ shop.brand.colors.primary[0].background }}",
         "button_text_color": ""
       }
     },
@@ -450,8 +450,8 @@
         "subtext": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "#0c2543",
-        "button_background": "#0c2543",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "button_background": "{{ shop.brand.colors.primary[0].background }}",
         "button_text_color": "#ffffff"
       }
     },
@@ -485,10 +485,10 @@
         "content": "",
         "link_url": "",
         "link_text": "View all",
-        "background": "",
+        "background": "{{ shop.brand.colors.primary[0].background }}",
         "background_gradient": "",
-        "text_color": "#0d2543",
-        "heading_color": "#0d2543",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "heading_gradient": ""
       }
     },
@@ -504,7 +504,7 @@
         "full_width": true,
         "subheading": "Contact Us",
         "title": "Do you have any question?",
-        "content": "",
+        "content": "<p>Have questions or need assistance with your order? Contact us to speak with our knowledgeable team of horse care experts. We're here to help you provide the best care for your horse<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
