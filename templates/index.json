@@ -384,7 +384,7 @@
       ],
       "custom_css": [
         ".text-gradient {font-weight: 800;}",
-        "h3 {font-weight: 800;}"
+        "h3 {font-weight: 800; letter-spacing: -0.05em;}"
       ],
       "settings": {
         "full_width": true,
