@@ -421,8 +421,8 @@
         "subtext": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
+        "text_color": "#0c2543",
+        "button_background": "#0c2543",
         "button_text_color": ""
       }
     },
