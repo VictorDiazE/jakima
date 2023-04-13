@@ -260,6 +260,45 @@
         "after_text_color": "#ffffff"
       }
     },
+    "impact-text": {
+      "type": "impact-text",
+      "blocks": {
+        "1664424181b38582d5-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "COMMITED TO HIGH HORSE PERFORMANCE:",
+            "content": "<p>With our High Horse Performance line of products, we offer cutting-edge formulas that provide superior nutrition and support for high-performance horses. Whether you're a competitive rider or a professional trainer, our products are designed to help your horse perform at their best in the arena. From digestive health supplements to performance-boosting formulas, our High Horse Performance products are trusted by equestrians for their effectiveness and reliability.<\/p>",
+            "button_text": "LEARN MORE",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "1664424181b38582d5-0"
+      ],
+      "custom_css": [
+        ".text-gradient {letter-spacing: -0.04em; font-weight: 800;}",
+        "h3 {font-weight: 800;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "{{ shop.brand.colors.secondary[0].background }}",
+        "heading_gradient": "linear-gradient(180deg, rgba(195, 7, 43, 1) 32%, rgba(156, 160, 164, 0.08) 97%)",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "button_background": "{{ shop.brand.colors.primary[0].background }}",
+        "button_text_color": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -361,45 +400,6 @@
         "mobile_row_height": 200,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "impact-text": {
-      "type": "impact-text",
-      "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "COMMITED TO HIGH HORSE PERFORMANCE:",
-            "content": "<p>With our High Horse Performance line of products, we offer cutting-edge formulas that provide superior nutrition and support for high-performance horses. Whether you're a competitive rider or a professional trainer, our products are designed to help your horse perform at their best in the arena. From digestive health supplements to performance-boosting formulas, our High Horse Performance products are trusted by equestrians for their effectiveness and reliability.<\/p>",
-            "button_text": "LEARN MORE",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "1664424181b38582d5-0"
-      ],
-      "custom_css": [
-        ".text-gradient {letter-spacing: -0.04em; font-weight: 800;}",
-        "h3 {font-weight: 800;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "{{ shop.brand.colors.secondary[0].background }}",
-        "heading_gradient": "linear-gradient(180deg, rgba(195, 7, 43, 1) 32%, rgba(156, 160, 164, 0.08) 97%)",
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "button_background": "{{ shop.brand.colors.primary[0].background }}",
-        "button_text_color": ""
       }
     },
     "26b20737-48c4-4afe-9506-deeb7ee73832": {
@@ -535,8 +535,8 @@
     "hot-spots",
     "scrolling-text",
     "before-after-image",
-    "media-grid",
     "impact-text",
+    "media-grid",
     "26b20737-48c4-4afe-9506-deeb7ee73832",
     "92d0749a-32e6-469d-a425-bfb47ee198b2",
     "bb82b6d0-a3aa-4418-97d3-971e12ae8817",
