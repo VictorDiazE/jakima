@@ -440,7 +440,7 @@
         ".newsletter-content__icon {color: #9f0b28;}",
         "h2 {font-weight: 800;}",
         ".form .input {border: solid 2px #9f0b28;}",
-        "section{background: #9ca0a415;}"
+        "section {background: #9ca0a415;}"
       ],
       "settings": {
         "full_width": true,
@@ -486,7 +486,7 @@
         "content": "",
         "link_url": "",
         "link_text": "View all",
-        "background": "#fafafa",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
