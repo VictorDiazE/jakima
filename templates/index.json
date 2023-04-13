@@ -326,7 +326,8 @@
     "scrolling-text": {
       "type": "scrolling-text",
       "custom_css": [
-        "marquee-text span {font-weight: 900;}"
+        "marquee-text span {font-weight: 900; font-size: 87px;}",
+        "@media screen and (max-width: 700px) {marquee-text span {font-size: 60px;}}"
       ],
       "settings": {
         "full_width": true,
@@ -469,7 +470,7 @@
         "template--18677966111021__bb82b6d0-a3aa-4418-97d3-971e12ae8817-1681341292b388d722-0"
       ],
       "custom_css": [
-        "h2{font-weight:800;}"
+        "h2 {font-weight: 800;}"
       ],
       "settings": {
         "full_width": true,
