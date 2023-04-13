@@ -467,6 +467,10 @@
     },
     "d2423827-af56-4ffe-9bb2-d33695c2af9e": {
       "type": "contact",
+      "custom_css": [
+        "input {border-color: #9f0b28;}",
+        "textarea {border-color: #9f0b28;}"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "Contact Us",
@@ -479,9 +483,9 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "#9ca0a4",
-        "contact_text_color": "#ffffff",
-        "button_background": "#9f0b28",
+        "contact_background": "rgba(0,0,0,0)",
+        "contact_text_color": "#0c2543",
+        "button_background": "#0c2543",
         "button_text_color": ""
       }
     },
