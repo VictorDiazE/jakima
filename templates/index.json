@@ -439,7 +439,8 @@
       "custom_css": [
         ".newsletter-content__icon {color: #9f0b28;}",
         "h2 {font-weight: 800;}",
-        ".form .input {border: solid 2px #9f0b28;}"
+        ".form .input {border: solid 2px #9f0b28;}",
+        "section{background: #9ca0a415;}"
       ],
       "settings": {
         "full_width": true,
