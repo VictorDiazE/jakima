@@ -413,13 +413,15 @@
     "92d0749a-32e6-469d-a425-bfb47ee198b2": {
       "type": "newsletter",
       "custom_css": [
-        ".newsletter-content__icon {color: #9f0b28;}"
+        ".newsletter-content__icon {color: #9f0b28;}",
+        "h2 {font-weight: 800;}",
+        ".form .input {border-color: #9f0b28;}"
       ],
       "settings": {
         "full_width": true,
         "show_icon": true,
         "title": "Newsletter",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+        "content": "<p>Sign up for our newsletter to receive exclusive offers, expert tips on horse care, nutrition, and performance, and stay updated with the latest products and promotions<\/p>",
         "button_text": "Subscribe",
         "subtext": "",
         "background": "",
@@ -477,9 +479,9 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
+        "contact_background": "#9ca0a4",
+        "contact_text_color": "#ffffff",
+        "button_background": "#9f0b28",
         "button_text_color": ""
       }
     },
