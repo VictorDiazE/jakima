@@ -327,7 +327,8 @@
       "type": "scrolling-text",
       "custom_css": [
         "marquee-text span {font-weight: 900; font-size: 87px;}",
-        "@media screen and (max-width: 700px) {marquee-text span {font-size: 60px; }}"
+        "@media screen and (max-width: 700px) {marquee-text span {font-size: 60px; }}",
+        ".text-stroke {-webkit-text-stroke: 2px currentColor; -webkit-text-fill-color: transparent;}"
       ],
       "settings": {
         "full_width": true,
