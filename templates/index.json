@@ -412,6 +412,9 @@
     },
     "92d0749a-32e6-469d-a425-bfb47ee198b2": {
       "type": "newsletter",
+      "custom_css": [
+        ".newsletter-content__icon {color: #9f0b28;}"
+      ],
       "settings": {
         "full_width": true,
         "show_icon": true,
@@ -423,7 +426,7 @@
         "background_gradient": "",
         "text_color": "#0c2543",
         "button_background": "#0c2543",
-        "button_text_color": ""
+        "button_text_color": "#ffffff"
       }
     },
     "bb82b6d0-a3aa-4418-97d3-971e12ae8817": {
