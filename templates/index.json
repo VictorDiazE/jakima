@@ -469,7 +469,8 @@
       "type": "contact",
       "custom_css": [
         "input {border-color: #9f0b28;}",
-        "textarea {border-color: #9f0b28;}"
+        "textarea {border-color: #9f0b28;}",
+        ".contact-form {background-color:#9ca0a415;}"
       ],
       "settings": {
         "full_width": true,
