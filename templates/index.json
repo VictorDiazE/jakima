@@ -485,7 +485,7 @@
         "content": "",
         "link_url": "",
         "link_text": "View all",
-        "background": "{{ shop.brand.colors.primary[0].background }}",
+        "background": "#fafafa",
         "background_gradient": "",
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
