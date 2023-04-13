@@ -383,8 +383,8 @@
         "1664424181b38582d5-0"
       ],
       "custom_css": [
-        ".text-gradient {font-weight: 800;}",
-        "h3 {font-weight: 800; letter-spacing: -0.05em;}"
+        ".text-gradient {letter-spacing: -0.04em; font-weight: 800;}",
+        "h3 {font-weight: 800;}"
       ],
       "settings": {
         "full_width": true,
@@ -439,7 +439,7 @@
       "custom_css": [
         ".newsletter-content__icon {color: #9f0b28;}",
         "h2 {font-weight: 800;}",
-        ".form .input {border: solid 2px #9f0b28}"
+        ".form .input {border: solid 2px #9f0b28;}"
       ],
       "settings": {
         "full_width": true,
