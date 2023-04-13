@@ -11,7 +11,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Our Commitment to High Horse Performance",
+            "title": "Achieve High Horse Performance with Our Natural Supplements",
             "heading_tag": "h1",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/collections",
@@ -30,8 +30,28 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "",
+            "title": "Nourish Your Horse with Our Premium Vitamin E Supplements",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Keep Your Horse Calm and Focused with Our Magnesium Supplements",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -47,7 +67,8 @@
       },
       "block_order": [
         "slide-1",
-        "slide-2"
+        "slide-2",
+        "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c"
       ],
       "custom_css": [
 
@@ -360,7 +381,8 @@
         "1664424181b38582d5-0"
       ],
       "custom_css": [
-        ".text-gradient {font-weight: 800;}"
+        ".text-gradient {font-weight: 800;}",
+        "h3{font-weight: 800;}"
       ],
       "settings": {
         "full_width": true,
@@ -471,7 +493,7 @@
         "input {border-color: #9f0b28; border: solid 2px;}",
         "textarea {border-color: #9f0b28; border: solid 2px;}",
         ".contact-form {background-color: #9ca0a415;}",
-        "h2{font-weight:800;}"
+        "h2 {font-weight: 800;}"
       ],
       "settings": {
         "full_width": true,
