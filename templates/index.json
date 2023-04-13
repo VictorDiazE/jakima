@@ -439,7 +439,7 @@
       "custom_css": [
         ".newsletter-content__icon {color: #9f0b28;}",
         "h2 {font-weight: 800;}",
-        ".form .input {border-color: #9f0b28;}"
+        ".form .input {border: solid 2px #9f0b28}"
       ],
       "settings": {
         "full_width": true,
