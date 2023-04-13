@@ -335,7 +335,7 @@
         "text_size": "large",
         "text_style": "outline",
         "scrolling_mode": "auto",
-        "scrolling_speed": 12,
+        "scrolling_speed": 4,
         "background": "",
         "background_gradient": "",
         "text_color": "#c3072b",
