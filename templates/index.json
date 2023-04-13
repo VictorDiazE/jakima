@@ -495,8 +495,8 @@
     "d2423827-af56-4ffe-9bb2-d33695c2af9e": {
       "type": "contact",
       "custom_css": [
-        "input {border-color: #9f0b28; border: solid 2px;}",
-        "textarea {border-color: #9f0b28; border: solid 2px;}",
+        "input {border-color: #9f0b28; border: solid 2px #9f0b28;}",
+        "textarea {border-color: #9f0b28; border: solid 2px #9f0b28;}",
         ".contact-form {background-color: #9ca0a415;}",
         "h2 {font-weight: 800;}"
       ],
