@@ -17,6 +17,9 @@ html {
 font-family: "Codec Pro"; src: url(https://cdn.shopify.com/s/files/1/0723/1809/1565/files/CodecPro-Regular.ttf?v=1681827578) format("ttf");
 }
 @font-face {
+font-family: "Arial"; src: url(https://cdn.shopify.com/s/files/1/0723/1809/1565/files/CodecPro-Regular.ttf?v=1681827578) format("ttf");
+}
+@font-face {
 font-family: "Codec Pro Italic";src: url({{ "CodecPro-Italic.ttf" | asset_url }}) format("ttf");
 }
 
