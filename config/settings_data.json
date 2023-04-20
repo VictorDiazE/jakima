@@ -25,7 +25,7 @@
     "heading_text_transform": "normal",
     "heading_letter_spacing": -1,
     "text_font": "rubik_n4",
-    "heading_apparition": "split_rotation",
+    "heading_apparition": "none",
     "color_swatch_style": "rectangle",
     "product_color_display": "swatch",
     "cart_type": "drawer",
