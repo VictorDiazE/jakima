@@ -132,12 +132,27 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "b7658879-48ad-4776-8a14-fa14aa510956": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "ID MACROCHIPS",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3"
+        "collection-3",
+        "b7658879-48ad-4776-8a14-fa14aa510956"
       ],
       "settings": {
         "full_width": true,
@@ -232,12 +247,12 @@
       ],
       "settings": {
         "full_width": true,
-        "text": "EXPERIENCE JAKIMA DIFFERENCE",
+        "text": "JAKIMA PROCESS",
         "text_size": "large",
-        "text_style": "outline",
+        "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 4,
-        "background": "",
+        "background": "{{ shop.brand.colors.primary[0].foreground }}",
         "background_gradient": "",
         "text_color": "#c3072b",
         "text_gradient": ""
