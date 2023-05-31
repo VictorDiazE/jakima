@@ -92,7 +92,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/IMG_7272.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_7020.jpg",
             "subheading": "",
             "title": "SUPLEMENTS",
             "url": "",
@@ -122,8 +122,9 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/IMG_6053.jpg",
             "subheading": "",
-            "title": "",
+            "title": "CARE AND HYGIENE",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
