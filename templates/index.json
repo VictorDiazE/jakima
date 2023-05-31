@@ -107,8 +107,9 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/IMG_7272.jpg",
             "subheading": "",
-            "title": "",
+            "title": "VITAMINS",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
