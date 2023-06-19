@@ -27,7 +27,8 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/IMG_6974.jpg",
+            "content_max_width": 720,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -76,7 +77,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "auto",
+        "image_size": "fill",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": true,
@@ -92,7 +93,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/IMG_7020.jpg",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2.png",
             "subheading": "",
             "title": "SUPLEMENTS",
             "url": "",
@@ -107,7 +108,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/IMG_7272.jpg",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_3.png",
             "subheading": "",
             "title": "VITAMINS",
             "url": "",
@@ -122,7 +123,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/IMG_6053.jpg",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_5.png",
             "subheading": "",
             "title": "CARE AND HYGIENE",
             "url": "",
@@ -137,6 +138,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_6.png",
             "subheading": "",
             "title": "ID MACROCHIPS",
             "url": "",
