@@ -7,11 +7,11 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Horse_Care_Jakima_Kiss.png",
-            "content_max_width": 740,
+            "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Achieve High Horse Performance with Our Natural Supplements",
+            "title": "High Horse Performance with Our Natural Supplements",
             "heading_tag": "h1",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/collections",
