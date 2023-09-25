@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Horse_Care_Jakima_Kiss.png",
-            "content_max_width": 580,
+            "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -28,7 +28,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6974.jpg",
-            "content_max_width": 720,
+            "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -48,12 +48,12 @@
         "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c": {
           "type": "image",
           "settings": {
-            "content_max_width": 780,
+            "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "Keep Your Horse Calm and Focused with Our Magnesium Supplements",
-            "heading_tag": "h0",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
