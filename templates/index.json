@@ -441,7 +441,7 @@
         "template--18677966111021__26b20737-48c4-4afe-9506-deeb7ee73832-1681341213d4c4becf-1": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "Video",
             "heading_tag": "h1"
           }
         }
@@ -555,110 +555,6 @@
         "enable_parallax": true,
         "spacing": "small"
       }
-    },
-    "1c46b909-4c8d-495e-b029-0f0a5889969c": {
-      "type": "featured-product",
-      "blocks": {
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-0": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-1": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-2": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-3": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-4": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-5": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-6": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-7": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-8": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-9": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-10": {
-          "type": "pickup_availability",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-0",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-1",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-2",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-3",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-4",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-5",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-6",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-7",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-8",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-9",
-        "template--18677966111021__1c46b909-4c8d-495e-b029-0f0a5889969c-16832735738dc2a8ff-10"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "jakima-potion",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
     }
   },
   "order": [
@@ -673,7 +569,6 @@
     "92d0749a-32e6-469d-a425-bfb47ee198b2",
     "bb82b6d0-a3aa-4418-97d3-971e12ae8817",
     "d2423827-af56-4ffe-9bb2-d33695c2af9e",
-    "f483dfd6-9d5e-46c2-8362-3eb242ee8e0d",
-    "1c46b909-4c8d-495e-b029-0f0a5889969c"
+    "f483dfd6-9d5e-46c2-8362-3eb242ee8e0d"
   ]
 }
