@@ -13,7 +13,7 @@
         "subheading": "",
         "title": "Jakima Veterinary Products LLC",
         "background": "",
-        "text_color_inside": "#c3072b",
+        "text_color_inside": "#0c2543",
         "text_color_outside": "#c3072b"
       }
     },
@@ -52,7 +52,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#c3072b",
         "heading_gradient": ""
       }
     },
