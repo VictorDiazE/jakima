@@ -9,11 +9,12 @@
     "3ad26cb8-8796-4c9e-bd55-5fee2022654e": {
       "type": "revealed-image-on-scroll",
       "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6093_2.jpg",
         "subheading": "",
-        "title": "Reveal text on scroll",
+        "title": "Jakima Veterinary Products LLC",
         "background": "",
-        "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
+        "text_color_inside": "#c3072b",
+        "text_color_outside": "#c3072b"
       }
     },
     "35fd5685-9ac2-4e17-8da5-dc34f77118f4": {
@@ -54,11 +55,51 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "4387f171-a0a7-44b4-8220-d52783aefb1b": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-1",
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "main",
     "3ad26cb8-8796-4c9e-bd55-5fee2022654e",
-    "35fd5685-9ac2-4e17-8da5-dc34f77118f4"
+    "35fd5685-9ac2-4e17-8da5-dc34f77118f4",
+    "4387f171-a0a7-44b4-8220-d52783aefb1b"
   ]
 }
