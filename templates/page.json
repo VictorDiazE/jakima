@@ -25,8 +25,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "title": "Our Story",
+            "content": "<p>At Jakima Veterinary Products LLC, our passion lies with horses and equine sports. Our mission is clear: to provide exceptional solutions that enhance the health and well-being of our four-legged companions.<\/p><p>Our journey began in the heart of our leader, Jose Javier Leon, who grew up surrounded by a deep love for animals and a special affinity for horses. Over time, this love evolved into a dream: to offer the equine community products that honor the nature and intrinsic beauty of these majestic animals.<\/p>"
           }
         },
         "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-1": {
@@ -34,8 +34,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "title": "Quality and Care in Every Product",
+            "content": "<p>Since then, we've worked tirelessly to perfect a range of natural products designed with the highest quality and utmost care. At Jakima Veterinary, each product we offer is thoughtfully crafted using natural and sustainable ingredients.<\/p><p>We firmly believe that what we apply to our horses is of vital importance to their well-being and performance. That's why we are committed to providing only formulas that are free from harsh chemicals, environmentally friendly, and safe for our beloved equine friends.<\/p>"
           }
         }
       },
@@ -52,7 +52,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "#c3072b",
+        "heading_color": "#0c2543",
         "heading_gradient": ""
       }
     },
@@ -64,8 +64,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "title": "A Passionate Team",
+            "content": "<p>Our team comprises experts in horse care and training, whose passion and knowledge are reflected in every one of our products. As equestrian enthusiasts, we understand the needs and demands of the equestrian world.<\/p><p>That's why our products are rigorously tested and approved by professionals and enthusiasts alike, ensuring optimal results. When you choose Jakima Veterinary Products, you're not just acquiring quality and efficacy; you're also embracing a genuine commitment to animal welfare and respect for nature.<\/p>"
           }
         },
         "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2": {
@@ -73,8 +73,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "title": "Driven by Passion",
+            "content": "<p>Our passion for horses and our love for equestrian sports are the driving forces behind our continuous improvement and our commitment to offering the best for you and your equine companions. Thank you for choosing Jakima Veterinary Products as your trusted partner in horse care.<\/p><p>Join us on this exciting journey as we continue to grow, innovate, and forge stronger bonds. And remember, <strong>with Jakima Veterinary Products, results speak for your horse.<\/strong><\/p>"
           }
         }
       },
