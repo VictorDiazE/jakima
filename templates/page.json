@@ -8,6 +8,7 @@
     },
     "3ad26cb8-8796-4c9e-bd55-5fee2022654e": {
       "type": "revealed-image-on-scroll",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_6093_2.jpg",
         "subheading": "",
@@ -23,6 +24,7 @@
         "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6055_1.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "Our Story",
@@ -32,6 +34,7 @@
         "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6039.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "Quality and Care in Every Product",
@@ -62,6 +65,7 @@
         "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_5.png",
             "icon": "none",
             "icon_width": 48,
             "title": "A Passionate Team",
@@ -71,6 +75,7 @@
         "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7272_d8c02317-9f5d-4756-a8ba-fc10ea820a75.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "Driven by Passion",
