@@ -30,21 +30,10 @@
             "title": "Our Story",
             "content": "<p>At Jakima Veterinary Products LLC, our passion lies with horses and equine sports. Our mission is clear: <strong>to provide exceptional solutions that enhance the health and well-being of our four-legged companions.<\/strong><\/p><p>Our journey began in the heart of our leader, Jose Javier Leon, who grew up surrounded by a deep love for animals and a special affinity for horses. Over time, this love evolved into a dream: to offer the equine community products that honor the nature and intrinsic beauty of these majestic animals.<\/p>"
           }
-        },
-        "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6039.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Quality and Care in Every Product",
-            "content": "<p>Since then, we've worked tirelessly to perfect a range of natural products designed with the highest quality and utmost care. At Jakima Veterinary, each product we offer is thoughtfully crafted using natural and sustainable ingredients.<\/p><p>We firmly believe that what we apply to our horses is of vital importance to their well-being and performance. That's why we are committed to providing only formulas that are free from harsh chemicals, environmentally friendly, and safe for our beloved equine friends.<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-0",
-        "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-1"
+        "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-0"
       ],
       "settings": {
         "full_width": true,
