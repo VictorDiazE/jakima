@@ -48,7 +48,7 @@
         "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2.png",
+            "image": "shopify:\/\/shop_images\/IMG_6974.jpg",
             "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -90,6 +90,21 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
+        "8e62d560-280b-42cd-a738-3713da060293": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_8.png",
+            "subheading": "",
+            "title": "DOG PRODUCTS",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -149,29 +164,14 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "8e62d560-280b-42cd-a738-3713da060293": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/IMG_3916.heic",
-            "subheading": "",
-            "title": "DOG PRODUCTS",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
+        "8e62d560-280b-42cd-a738-3713da060293",
         "collection-1",
         "collection-2",
         "collection-3",
-        "b7658879-48ad-4776-8a14-fa14aa510956",
-        "8e62d560-280b-42cd-a738-3713da060293"
+        "b7658879-48ad-4776-8a14-fa14aa510956"
       ],
       "settings": {
         "full_width": true,
@@ -284,6 +284,8 @@
         "subheading": "",
         "title": "",
         "content": "<p>Discover Jakima Veterinary Products' Premium Collection of Natural Horse Care Products for Optimal Performance and Health. <\/p><p>Shop Now for Horse Shampoo, Supplements, Vitamin E, and More<\/p>",
+        "before_image": "shopify:\/\/shop_images\/a64042b0-4a2d-4def-bb70-a6b0491a9dac.jpg",
+        "after_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-12-11_at_2.46.11_PM.jpg",
         "expand_image": true,
         "text_position": "center",
         "before_after_text_position": "bottom",
