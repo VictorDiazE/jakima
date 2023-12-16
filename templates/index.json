@@ -27,7 +27,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6974.jpg",
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_4.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -48,6 +48,7 @@
         "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -148,13 +149,29 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "8e62d560-280b-42cd-a738-3713da060293": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/IMG_3916.heic",
+            "subheading": "",
+            "title": "DOG PRODUCTS",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
         "collection-3",
-        "b7658879-48ad-4776-8a14-fa14aa510956"
+        "b7658879-48ad-4776-8a14-fa14aa510956",
+        "8e62d560-280b-42cd-a738-3713da060293"
       ],
       "settings": {
         "full_width": true,
