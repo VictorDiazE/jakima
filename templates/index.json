@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -94,7 +94,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_8.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_1.png",
             "subheading": "",
             "title": "DOG PRODUCTS",
             "url": "",
@@ -109,7 +109,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo.png",
             "subheading": "",
             "title": "SUPLEMENTS",
             "url": "",
@@ -124,7 +124,6 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_3.png",
             "subheading": "",
             "title": "VITAMINS",
             "url": "",
@@ -139,7 +138,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_5.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2_0a63fb16-5dd9-41be-b186-fc89c22c98b4.png",
             "subheading": "",
             "title": "CARE AND HYGIENE",
             "url": "",
@@ -154,7 +153,6 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_6.png",
             "subheading": "",
             "title": "ID MACROCHIPS",
             "url": "",
@@ -284,8 +282,6 @@
         "subheading": "",
         "title": "",
         "content": "<p>Discover Jakima Veterinary Products' Premium Collection of Natural Horse Care Products for Optimal Performance and Health. <\/p><p>Shop Now for Horse Shampoo, Supplements, Vitamin E, and More<\/p>",
-        "before_image": "shopify:\/\/shop_images\/a64042b0-4a2d-4def-bb70-a6b0491a9dac.jpg",
-        "after_image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-12-11_at_2.46.11_PM.jpg",
         "expand_image": true,
         "text_position": "center",
         "before_after_text_position": "bottom",
@@ -344,7 +340,6 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vitahorse_Magnesium_Horse_Supplement_Jakima_Veterinary.png",
             "title": "VitaHorse",
             "heading_tag": "h4",
             "link_url": "",
@@ -366,7 +361,6 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jakima_Potion_Horse_Shampoo_Jakima_Veterinary.png",
             "title": "Jakima Potion",
             "heading_tag": "h3",
             "link_url": "",
@@ -388,7 +382,6 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Post_Struggle_Horse_Shampoo_Jakima_Veterinary.png",
             "title": "Post Struggle",
             "heading_tag": "h3",
             "link_url": "",
@@ -410,7 +403,6 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pack_Jakima_Veterinary.png",
             "title": "PACK",
             "heading_tag": "h4",
             "link_url": "",
