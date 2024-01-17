@@ -10,7 +10,6 @@
       "type": "revealed-image-on-scroll",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_6093_2.jpg",
         "subheading": "",
         "title": "Jakima Veterinary Products LLC",
         "background": "",
@@ -24,7 +23,7 @@
         "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/POST_JAKIMA_1.png",
+            "image": "shopify:\/\/shop_images\/IMG_6976_1.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "Our Story",
@@ -54,7 +53,7 @@
         "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_5.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2_0a63fb16-5dd9-41be-b186-fc89c22c98b4.png",
             "icon": "none",
             "icon_width": 48,
             "title": "A Passionate Team",
@@ -64,7 +63,7 @@
         "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_7272_d8c02317-9f5d-4756-a8ba-fc10ea820a75.jpg",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Driven by Passion",
@@ -74,7 +73,7 @@
         "9b9699e4-a623-4a6a-9f35-0e7d32955ded": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/POST_JAKIMA_2.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_12.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Lovers of innovation",
@@ -84,7 +83,7 @@
         "660b7fea-87f2-465c-8105-3638a9f813f0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/POST_JAKIMA_3.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_13.png",
             "icon": "none",
             "icon_width": 48,
             "title": "",
