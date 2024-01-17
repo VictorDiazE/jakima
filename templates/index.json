@@ -361,8 +361,8 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "title": "Jakima Potion",
-            "heading_tag": "h3",
+            "title": "Fungi Horse",
+            "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -382,8 +382,8 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "Post Struggle",
-            "heading_tag": "h3",
+            "title": "Sheer Force",
+            "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -452,7 +452,7 @@
         "template--18677966111021__26b20737-48c4-4afe-9506-deeb7ee73832-1681341213d4c4becf-1": {
           "type": "heading",
           "settings": {
-            "text": "Video",
+            "text": "",
             "heading_tag": "h1"
           }
         }
