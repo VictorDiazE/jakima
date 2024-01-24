@@ -102,8 +102,8 @@
           "text": {
             "type": "text",
             "settings": {
-              "title": "About",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              "title": "Our mission is clear:",
+              "content": "<p>To provide exceptional solutions that enhance the health and well-being of our four-legged companions.<\/p>"
             }
           },
           "links": {
