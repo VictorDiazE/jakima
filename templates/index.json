@@ -6,14 +6,14 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2.png",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_19.png",
             "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "High Horse Performance with Our Natural Supplements",
+            "title": "",
             "heading_tag": "h1",
-            "button_text": "SHOP NOW",
+            "button_text": "",
             "button_link": "shopify:\/\/collections",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
