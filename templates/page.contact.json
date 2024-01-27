@@ -27,13 +27,12 @@
         "template--18677965685037__5484303a-fc5e-4c84-b36f-6f35cf1f0e5d-1681505916d60e41b3-1",
         "template--18677965685037__5484303a-fc5e-4c84-b36f-6f35cf1f0e5d-1681505916d60e41b3-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Horse_Care_Jakima_Kiss.png",
-        "mobile_image": "shopify:\/\/shop_images\/Horse_Care_Jakima_Kiss.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
