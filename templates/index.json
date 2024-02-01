@@ -340,16 +340,41 @@
     "media-grid": {
       "type": "media-grid",
       "blocks": {
-        "item-1": {
-          "type": "image",
+        "video_fzxDBP": {
+          "type": "video",
           "settings": {
-            "title": "VitaHorse",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "",
+            "show_video_controls": false,
+            "title": "VIDEO PROMO?",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
+            "title": "Catálogo Perros",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "Descargar",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -361,55 +386,36 @@
             "overlay_opacity": 0
           }
         },
-        "item-2": {
-          "type": "image",
-          "settings": {
-            "title": "Fungi Horse",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "settings": {
-            "title": "Sheer Force",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
+            "title": "Catálogo caballos",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "Ver más",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aGzcFA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
             "title": "PACK",
             "heading_tag": "h4",
             "link_url": "",
-            "link_text": "",
+            "link_text": "Ver más",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
@@ -426,10 +432,10 @@
         }
       },
       "block_order": [
+        "video_fzxDBP",
         "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
+        "29246d34-c6e0-4373-84f6-b15e57736a00",
+        "image_aGzcFA"
       ],
       "custom_css": [
         ".h4 {font-weight: 600; color: #0c2543; text-transform: uppercase; -webkit-text-stroke: 1px #9f0b28; -webkit-text-fill-color: white;}",
