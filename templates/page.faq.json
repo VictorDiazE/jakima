@@ -12,36 +12,92 @@
         "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Are your products safe for all horses?",
+            "content": "<p>Yes, our products are formulated with natural and safe ingredients suitable for all horses. However, if your horse has specific allergies or medical conditions, we recommend consulting with a veterinarian before use.<\/p>"
           }
         },
         "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "How do I use your products?",
+            "content": "<p>Usage instructions are provided on each product label. For specific guidance or questions about usage, feel free to contact our customer support team.<\/p>"
           }
         },
         "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Are your products environmentally friendly?",
+            "content": "<p>Yes, we are committed to sustainability and use eco-friendly packaging materials whenever possible. Our formulas are also free from harsh chemicals, making them safe for the environment.<br\/><\/p>"
+          }
+        },
+        "item_V9cFLG": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer international shipping?",
+            "content": "<p>Yes, we offer international shipping to select countries. Shipping rates and delivery times may vary depending on the destination. Please refer to our Shipping Policy for more information.<\/p>"
+          }
+        },
+        "item_q9YVkf": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We want you to be completely satisfied with your purchase. If you are not happy with your order, please contact us within 30 days of receipt for assistance with returns or exchanges.<\/p>"
+          }
+        },
+        "item_6mG7L3": {
+          "type": "item",
+          "settings": {
+            "title": "Are your products tested on animals?",
+            "content": "<p>No, we do not conduct animal testing on any of our products. We are committed to cruelty-free practices and ethical sourcing of ingredients.<\/p>"
+          }
+        },
+        "item_YPfpFD": {
+          "type": "item",
+          "settings": {
+            "title": "Can I track my order?",
+            "content": "<p>Yes, once your order has been shipped, you will receive a tracking number via email. You can use this tracking number to monitor the status of your shipment.<\/p>"
+          }
+        },
+        "item_LKWANk": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer bulk discounts?",
+            "content": "<p>Yes, we offer discounts for bulk orders. Please contact our sales team for more information on bulk pricing and discounts.<\/p>"
+          }
+        },
+        "item_RYyP7X": {
+          "type": "item",
+          "settings": {
+            "title": "How can I contact customer support?",
+            "content": "<p>You can reach our customer support team via email at <a>support@jakimavetproducts.com<\/a> or by filling out the contact form on our website. We strive to respond to all inquiries promptly.<\/p>"
+          }
+        },
+        "item_e4bqD3": {
+          "type": "item",
+          "settings": {
+            "title": "Are your products veterinarian-approved?",
+            "content": "<p>While our products are formulated with the input of equine experts, we always recommend consulting with a qualified veterinarian for personalized advice on horse care and product usage.<\/p>"
           }
         }
       },
       "block_order": [
         "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-0",
         "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-1",
-        "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-2"
+        "template--18677965979949__e77987d9-ff36-4c80-b66b-08427146cc89-16815061418474c929-2",
+        "item_V9cFLG",
+        "item_q9YVkf",
+        "item_6mG7L3",
+        "item_YPfpFD",
+        "item_LKWANk",
+        "item_RYyP7X",
+        "item_e4bqD3"
       ],
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "FAQS",
         "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar": "shopify:\/\/shop_images\/POSTJAKIMA_16.png",
+        "team_avatar": "shopify:\/\/shop_images\/5302_-_Whatsapp-512.webp",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
