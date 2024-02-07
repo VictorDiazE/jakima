@@ -93,11 +93,11 @@
         "8e62d560-280b-42cd-a738-3713da060293": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "horse-care",
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_1.png",
             "subheading": "",
             "title": "DOG PRODUCTS",
-            "url": "",
+            "url": "shopify:\/\/collections\/horse-care",
             "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -111,23 +111,8 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_11.png",
             "subheading": "",
-            "title": "SUPLEMENTS",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo.png",
-            "subheading": "",
-            "title": "VITAMINS",
-            "url": "",
+            "title": "SUPPLEMENTS",
+            "url": "shopify:\/\/collections\/horse-supplements",
             "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -138,11 +123,11 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "care-and-hygiene",
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
             "subheading": "",
             "title": "CARE AND HYGIENE",
-            "url": "",
+            "url": "shopify:\/\/collections\/care-and-hygiene",
             "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -169,7 +154,6 @@
       "block_order": [
         "8e62d560-280b-42cd-a738-3713da060293",
         "collection-1",
-        "collection-2",
         "collection-3",
         "b7658879-48ad-4776-8a14-fa14aa510956"
       ],
