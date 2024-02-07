@@ -233,7 +233,7 @@
         "item_Na7BBt"
       ],
       "custom_css": [
-        ".h6 {color: #9F0B28;}"
+        ".h6 {color: #9f0b28; font-weight: 600;}"
       ],
       "settings": {
         "full_width": false,
