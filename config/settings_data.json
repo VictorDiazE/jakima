@@ -89,16 +89,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "image": "{{shop.brand.logo}}",
-              "image_width": 150,
-              "heading_size": "h3",
-              "title": "Unlock exclusive offers! Sign up for updates and promotions.",
-              "content": ""
-            }
-          },
           "text": {
             "type": "text",
             "settings": {
@@ -119,13 +109,23 @@
               "menu": "policies-menu-1",
               "show_menu_title": false
             }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "image": "{{shop.brand.logo}}",
+              "image_width": 150,
+              "heading_size": "h3",
+              "title": "Unlock exclusive offers! Sign up for updates and promotions.",
+              "content": ""
+            }
           }
         },
         "block_order": [
-          "newsletter",
           "text",
           "links",
-          "0d543375-44ef-4f9c-b24f-c3d59f165ec8"
+          "0d543375-44ef-4f9c-b24f-c3d59f165ec8",
+          "newsletter"
         ],
         "settings": {
           "show_social_media": true,
