@@ -193,47 +193,60 @@
     "hot-spots": {
       "type": "hot-spots",
       "blocks": {
-        "1664424434f5b7d0e0-0": {
+        "item_e7mc8V": {
           "type": "item",
           "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Feature name",
+            "title": "VITA HORSE",
             "content": "<p>Share useful information about your product features.<\/p>"
           }
         },
-        "1664424434f5b7d0e0-1": {
+        "item_taxLCU": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "horizontal_position": 70,
+            "vertical_position": 65,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Feature name",
+            "title": "JAKIMA POTION",
             "content": "<p>Share useful information about your product features.<\/p>"
           }
         },
-        "1664424434f5b7d0e0-2": {
+        "item_GWjajj": {
           "type": "item",
           "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "horizontal_position": 54,
+            "vertical_position": 48,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Feature name",
+            "title": "SHEER FORCE",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "item_Na7BBt": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 38,
+            "vertical_position": 86,
+            "horizontal_position_mobile": 42,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "JAKIMA ELECTROLITE",
             "content": "<p>Share useful information about your product features.<\/p>"
           }
         }
       },
       "block_order": [
-        "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
-        "1664424434f5b7d0e0-2"
+        "item_e7mc8V",
+        "item_taxLCU",
+        "item_GWjajj",
+        "item_Na7BBt"
       ],
       "settings": {
         "full_width": false,
@@ -260,6 +273,7 @@
     },
     "scrolling-text": {
       "type": "scrolling-text",
+      "disabled": true,
       "custom_css": [
         "marquee-text span {font-weight: 900; font-size: 87px;}",
         "@media screen and (max-width: 700px) {marquee-text span {font-size: 60px; }}",
@@ -332,7 +346,7 @@
         "background": "",
         "background_gradient": "",
         "heading_text_color": "{{ shop.brand.colors.secondary[0].background }}",
-        "heading_gradient": "linear-gradient(180deg, rgba(195, 7, 43, 1) 32%, rgba(156, 160, 164, 0.08) 97%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(195, 7, 43, 1) 67%, rgba(156, 160, 164, 0.08) 97%)",
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "button_background": "{{ shop.brand.colors.primary[0].background }}",
         "button_text_color": ""
