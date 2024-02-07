@@ -342,7 +342,7 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 0.7,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "{{ shop.brand.colors.secondary[0].background }}",
@@ -355,13 +355,35 @@
     "media-grid": {
       "type": "media-grid",
       "blocks": {
-        "video_fzxDBP": {
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_19_826a09db-38e6-4a17-9680-5f3c04a83310.png",
+            "title": "Catálogo Perros",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "Ver más",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "{{ shop.brand.colors.primary[0].background }}",
+            "text_gradient": "linear-gradient(180deg, rgba(156, 160, 164, 1), rgba(250, 250, 250, 1) 1.079%, rgba(250, 250, 250, 1) 100%)",
+            "button_background": "#0d2543",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_wNqwGE": {
           "type": "video",
           "settings": {
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "video_url": "",
             "show_video_controls": false,
-            "title": "VIDEO PROMO?",
+            "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -379,22 +401,22 @@
             "overlay_opacity": 0
           }
         },
-        "item-1": {
+        "image_aGzcFA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
-            "title": "Catálogo Perros",
+            "image": "shopify:\/\/shop_images\/ELIGE_EL_SHAMPOO_IDEAL.png",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
-            "link_text": "Descargar",
+            "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "{{ shop.brand.colors.primary[0].background }}",
-            "text_gradient": "linear-gradient(180deg, rgba(156, 160, 164, 1), rgba(250, 250, 250, 1) 1.079%, rgba(250, 250, 250, 1) 100%)",
+            "text_color": "#ffffff",
+            "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -404,7 +426,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_17_ff92b9c7-38c0-483e-91a3-2012d7934967.png",
             "title": "Catálogo caballos",
             "heading_tag": "h4",
             "link_url": "",
@@ -423,16 +445,15 @@
             "overlay_opacity": 0
           }
         },
-        "image_aGzcFA": {
+        "image_PMK6FT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17.png",
-            "title": "PACK",
+            "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
+            "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
@@ -447,10 +468,11 @@
         }
       },
       "block_order": [
-        "video_fzxDBP",
         "item-1",
+        "video_wNqwGE",
+        "image_aGzcFA",
         "29246d34-c6e0-4373-84f6-b15e57736a00",
-        "image_aGzcFA"
+        "image_PMK6FT"
       ],
       "custom_css": [
         ".h4 {font-weight: 600; color: #0c2543; text-transform: uppercase; -webkit-text-stroke: 1px #9f0b28; -webkit-text-fill-color: white;}",
