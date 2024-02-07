@@ -102,22 +102,22 @@
           "text": {
             "type": "text",
             "settings": {
-              "title": "Our mission is clear:",
+              "title": "OUR MISSION IS CLEAR:",
               "content": "<p>To provide exceptional solutions that enhance the health and well-being of our four-legged companions.<\/p>"
             }
           },
           "links": {
             "type": "links",
             "settings": {
-              "menu": "footer",
-              "show_menu_title": true
+              "menu": "policies-menu",
+              "show_menu_title": false
             }
           },
           "0d543375-44ef-4f9c-b24f-c3d59f165ec8": {
             "type": "links",
             "settings": {
               "menu": "footer",
-              "show_menu_title": true
+              "show_menu_title": false
             }
           }
         },
