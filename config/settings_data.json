@@ -128,7 +128,7 @@
           "newsletter"
         ],
         "custom_css": [
-          ".h3 {font-size: 24px;}"
+          "@media (min-width: 768px) {.h3 {font-size: 24px;}}"
         ],
         "settings": {
           "show_social_media": true,
