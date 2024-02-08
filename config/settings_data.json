@@ -127,6 +127,9 @@
           "0d543375-44ef-4f9c-b24f-c3d59f165ec8",
           "newsletter"
         ],
+        "custom_css": [
+          ".h3 {font-size: 24px;}"
+        ],
         "settings": {
           "show_social_media": true,
           "show_payment_icons": true,
