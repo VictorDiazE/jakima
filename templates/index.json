@@ -343,28 +343,6 @@
     "media-grid": {
       "type": "media-grid",
       "blocks": {
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/POST_JAKIMA_19_826a09db-38e6-4a17-9680-5f3c04a83310.png",
-            "title": "Catálogo Perros",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "{{ shop.brand.colors.primary[0].background }}",
-            "text_gradient": "linear-gradient(180deg, rgba(156, 160, 164, 1), rgba(250, 250, 250, 1) 1.079%, rgba(250, 250, 250, 1) 100%)",
-            "button_background": "#0d2543",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_aGzcFA": {
           "type": "image",
           "settings": {
@@ -382,6 +360,28 @@
             "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_19_826a09db-38e6-4a17-9680-5f3c04a83310.png",
+            "title": "Catálogo Perros",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "{{ shop.brand.colors.primary[0].background }}",
+            "text_gradient": "linear-gradient(180deg, rgba(156, 160, 164, 1), rgba(250, 250, 250, 1) 1.079%, rgba(250, 250, 250, 1) 100%)",
+            "button_background": "#0d2543",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -432,8 +432,8 @@
         }
       },
       "block_order": [
-        "item-1",
         "image_aGzcFA",
+        "item-1",
         "29246d34-c6e0-4373-84f6-b15e57736a00",
         "image_PMK6FT"
       ],
