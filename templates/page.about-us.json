@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3ad26cb8-8796-4c9e-bd55-5fee2022654e": {
+      "type": "revealed-image-on-scroll",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Jakima Veterinary Products LLC",
+        "background": "",
+        "text_color_inside": "#0c2543",
+        "text_color_outside": "#c3072b"
+      }
+    },
+    "35fd5685-9ac2-4e17-8da5-dc34f77118f4": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_15.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Our Story",
+            "content": "<p>At Jakima Veterinary Products LLC, our passion lies with horses and equine sports. Our mission is clear: <strong>to provide exceptional solutions that enhance the health and well-being of our four-legged companions.<\/strong><\/p><p>Our journey began in the heart of our leader, Jose Javier Leon, who grew up surrounded by a deep love for animals and a special affinity for horses. Over time, this love evolved into a dream: to offer the equine community products that honor the nature and intrinsic beauty of these majestic animals.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18677965881645__35fd5685-9ac2-4e17-8da5-dc34f77118f4-16815062279ea2c069-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#0c2543",
+        "heading_gradient": ""
+      }
+    },
+    "4387f171-a0a7-44b4-8220-d52783aefb1b": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2_0a63fb16-5dd9-41be-b186-fc89c22c98b4.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "A Passionate Team",
+            "content": "<p>Our team <strong>comprises experts in horse care and training<\/strong>, whose passion and knowledge are reflected in every one of our products. As passionate about animals, we understand their needs and demands.<\/p><p>That's why our products are <strong>rigorously tested<\/strong> and approved by professionals and enthusiasts alike, ensuring optimal results. When you choose Jakima Veterinary Products, you're not just acquiring <strong>quality and efficacy<\/strong>; you're also embracing a genuine commitment to animal welfare and respect for nature.<\/p>"
+          }
+        },
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_19.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Driven by Passion",
+            "content": "<p>Our <strong>passion for horses<\/strong> and our love for equestrian sports are the driving forces behind our continuous improvement and our commitment to offering the best for you and your equine companions. Thank you for choosing Jakima Veterinary Products as your trusted partner in horse care.<\/p><p>Join us on this exciting journey as we continue to grow, innovate, and forge stronger bonds. And remember, <strong>with Jakima Veterinary Products, results speak for your horse.<\/strong><\/p>"
+          }
+        },
+        "9b9699e4-a623-4a6a-9f35-0e7d32955ded": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_20.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Lovers of innovation",
+            "content": "<p>Looking to provide greater solutions to our clients, we decided to expand our portfolio to include<strong> exclusive products for dogs.<\/strong> These products have been carefully <strong>developed to ensure unmatched quality, proven effectiveness and a unique experience for pets.<\/strong><br\/><br\/>In addition,<strong> we put agroindustrial implements and tools in your hands,<\/strong> we facilitate the process of achieving a balance between quality and price.<\/p>"
+          }
+        },
+        "660b7fea-87f2-465c-8105-3638a9f813f0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_18.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>We are proud to offer premium solutions for the well-being of our clients, maintaining the standards of excellence that characterize us.<strong> Thank you for choosing Jakima Veterinary Products as your trusted partner.<\/strong><br\/><br\/>Join us on this exciting journey as we continue to grow, innovate and forge stronger bonds. <strong>And remember, with Jakima Veterinary Products, the results speak for your horse.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-1",
+        "template--18677965881645__4387f171-a0a7-44b4-8220-d52783aefb1b-item-2",
+        "9b9699e4-a623-4a6a-9f35-0e7d32955ded",
+        "660b7fea-87f2-465c-8105-3638a9f813f0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3ad26cb8-8796-4c9e-bd55-5fee2022654e",
+    "35fd5685-9ac2-4e17-8da5-dc34f77118f4",
+    "4387f171-a0a7-44b4-8220-d52783aefb1b"
+  ]
+}
