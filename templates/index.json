@@ -543,6 +543,7 @@
       "block_order": [
         "template--18677966111021__bb82b6d0-a3aa-4418-97d3-971e12ae8817-1681341292b388d722-0"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-weight: 800;}",
         ".h3 {font-weight: 600;}"
