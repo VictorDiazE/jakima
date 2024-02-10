@@ -32,7 +32,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Show love to your pets with Jakima Dog",
+            "title": "Veterinarian-Approved Jakima Care: Nurture Your Pet's Health & Vitality",
             "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
@@ -412,6 +412,7 @@
         "image_PMK6FT": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/POST_JAKIMA_20.png",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
