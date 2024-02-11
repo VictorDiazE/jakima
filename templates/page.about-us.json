@@ -56,7 +56,7 @@
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_2_0a63fb16-5dd9-41be-b186-fc89c22c98b4.png",
             "icon": "none",
             "icon_width": 48,
-            "title": "A Passionate Team",
+            "title": "A Committed Team",
             "content": "<p>Our team <strong>comprises experts in horse care and training<\/strong>, whose passion and knowledge are reflected in every one of our products. As passionate about animals, we understand their needs and demands.<\/p><p>That's why our products are <strong>rigorously tested<\/strong> and approved by professionals and enthusiasts alike, ensuring optimal results. When you choose Jakima Veterinary Products, you're not just acquiring <strong>quality and efficacy<\/strong>; you're also embracing a genuine commitment to animal welfare and respect for nature.<\/p>"
           }
         },
@@ -82,6 +82,7 @@
         },
         "660b7fea-87f2-465c-8105-3638a9f813f0": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_18.png",
             "icon": "none",
@@ -109,12 +110,38 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "rich_text_FwWwaJ": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_L9bVkJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>We are proud to offer premium solutions for the well-being of our clients, maintaining the standards of excellence that characterize us.<strong> Thank you for choosing Jakima Veterinary Products as your trusted partner.<\/strong><br\/><br\/>Join us on this exciting journey as we continue to grow, innovate and forge stronger bonds. <strong>And remember, with Jakima Veterinary Products, the results speak for your horse.<\/strong><\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_L9bVkJ"
+      ],
+      "custom_css": [
+        "span b{color: #9f0b28;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "3ad26cb8-8796-4c9e-bd55-5fee2022654e",
     "35fd5685-9ac2-4e17-8da5-dc34f77118f4",
-    "4387f171-a0a7-44b4-8220-d52783aefb1b"
+    "4387f171-a0a7-44b4-8220-d52783aefb1b",
+    "rich_text_FwWwaJ"
   ]
 }
