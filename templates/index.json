@@ -224,13 +224,26 @@
             "title": "JAKIMA ELECTROLITE",
             "content": "<p>Combat exhaustion and weakness with essential electrolytes, ensuring peak performance and vitality.<\/p>"
           }
+        },
+        "item_YaLw7e": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 56,
+            "vertical_position": 66,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "HEAL BUMPS",
+            "content": "<p>It is an anti-inflammatory gel rich in arnica that is excellent for relieving muscle pain and stiffness caused by overexertion or blows in competitions or training.<\/p>"
+          }
         }
       },
       "block_order": [
         "item_e7mc8V",
         "item_taxLCU",
         "item_GWjajj",
-        "item_Na7BBt"
+        "item_Na7BBt",
+        "item_YaLw7e"
       ],
       "custom_css": [
         ".h6 {color: #9f0b28; font-weight: 600; font-size: 20px;}",
