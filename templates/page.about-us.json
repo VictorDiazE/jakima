@@ -125,7 +125,7 @@
         "richtext_L9bVkJ"
       ],
       "custom_css": [
-        "strong{color: #9f0b28;}"
+        "strong {color: #9f0b28;}"
       ],
       "settings": {
         "full_width": true,
