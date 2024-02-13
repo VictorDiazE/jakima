@@ -634,9 +634,10 @@
         "quote_wbXdNf",
         "quote_DeRLBM"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
-        "content_size": "medium",
+        "content_size": "small",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -644,6 +645,65 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "testimonials_XnjTBY": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_nXVg7M": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        },
+        "testimonial_AjQVJh": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        },
+        "testimonial_JMb7Pd": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_nXVg7M",
+        "testimonial_AjQVJh",
+        "testimonial_JMb7Pd"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     }
   },
@@ -660,6 +720,7 @@
     "bb82b6d0-a3aa-4418-97d3-971e12ae8817",
     "d2423827-af56-4ffe-9bb2-d33695c2af9e",
     "f483dfd6-9d5e-46c2-8362-3eb242ee8e0d",
-    "press_YRKNDG"
+    "press_YRKNDG",
+    "testimonials_XnjTBY"
   ]
 }
