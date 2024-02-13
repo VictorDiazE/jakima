@@ -30,7 +30,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_21.png",
             "mobile_image": "shopify:\/\/shop_images\/2_ab34dc38-a730-4bb1-856f-d68b7f930cba.png",
-            "content_max_width": 400,
+            "content_max_width": 600,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
