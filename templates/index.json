@@ -360,7 +360,7 @@
             "subheading": "COMMITED TO HIGH HORSE PERFORMANCE:",
             "content": "<p>With our High Horse Performance line of products, we offer cutting-edge formulas that provide superior nutrition and support for high-performance horses. Whether you're a competitive rider or a professional trainer, our products are designed to help your horse perform at their best in the arena. From digestive health supplements to performance-boosting formulas, our High Horse Performance products are trusted by equestrians for their effectiveness and reliability.<\/p>",
             "button_text": "LEARN MORE",
-            "button_url": "",
+            "button_url": "shopify:\/\/pages\/about-us",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -490,7 +490,7 @@
       ],
       "custom_css": [
         ".h4 {font-weight: 600; color: #0c2543; text-transform: uppercase; -webkit-text-fill-color: white; -webkit-text-stroke: 0.3px black;}",
-        "@media (min-width: 768px) and (max-width: 1080px) {.h4 {font-size: 18px; }}",
+        "@media (max-width: 1080px) {.h4 {font-size: 18px; }}",
         ".h3 {font-weight: 600; color: #0c2543; text-transform: uppercase; -webkit-text-stroke: 1px #9f0b28; -webkit-text-fill-color: white;}"
       ],
       "settings": {
