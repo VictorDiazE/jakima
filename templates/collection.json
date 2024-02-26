@@ -3,7 +3,7 @@
     "banner": {
       "type": "collection-banner",
       "custom_css": [
-        ".collection-header{margin-top:15px; margin-bottom:15px;}"
+        ".collection-header {margin-top: 15px; margin-bottom: 0;}"
       ],
       "settings": {
         "full_width": false,
