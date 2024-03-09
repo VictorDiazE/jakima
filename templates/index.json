@@ -196,23 +196,35 @@
     "hot-spots": {
       "type": "hot-spots",
       "blocks": {
+        "item_Na7BBt": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 31,
+            "vertical_position": 38,
+            "horizontal_position_mobile": 18,
+            "vertical_position_mobile": 82,
+            "icon_width": 32,
+            "title": "DOG SHINE",
+            "content": "<p>Formulated for deep cleansing, it removes dirt and odors while leaving your dog's fur soft, shiny, and rejuvenated.<\/p><p><a href=\"\/products\/jakima-electrolite-energy-suplement\" title=\"JAKIMA ELECTROLITE Energy suplement\">SHOP NOW<\/a><\/p>"
+          }
+        },
         "item_e7mc8V": {
           "type": "item",
           "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
+            "horizontal_position": 22,
+            "vertical_position": 62,
             "horizontal_position_mobile": 13,
             "vertical_position_mobile": 49,
-            "icon_width": 32,
-            "title": "VITA HORSE",
-            "content": "<p>Enhanced with essential vitamins and advanced amino acids, it strengthens cellular systems and optimizes performance<br\/><br\/><a href=\"\/products\/vita-horse-multivitamin\" title=\"VITA HORSE Multivitamin\">SHOP NOW<\/a><\/p>"
+            "icon_width": 48,
+            "title": "FLEXIBILITY DOG",
+            "content": "<p>Designed for cartilage recovery and joint relief, this supplement contains hyaluronic acid and offers analgesic effects to improve mobility and enhance your pet's quality of life.<br\/><br\/><a href=\"\/products\/vita-horse-multivitamin\" title=\"VITA HORSE Multivitamin\">SHOP NOW<\/a><\/p>"
           }
         },
         "item_taxLCU": {
           "type": "item",
           "settings": {
-            "horizontal_position": 70,
-            "vertical_position": 65,
+            "horizontal_position": 64,
+            "vertical_position": 34,
             "horizontal_position_mobile": 80,
             "vertical_position_mobile": 63,
             "icon_width": 32,
@@ -232,18 +244,6 @@
             "content": "<p>Elevate your horse's performance naturally with our magnesium horse supplement and succeed horse supplement.<\/p><p><a href=\"\/products\/sheer-force-suplement\" title=\"SHEER FORCE Suplement\">SHOP NOW<\/a><\/p>"
           }
         },
-        "item_Na7BBt": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 38,
-            "vertical_position": 86,
-            "horizontal_position_mobile": 18,
-            "vertical_position_mobile": 82,
-            "icon_width": 32,
-            "title": "JAKIMA ELECTROLITE",
-            "content": "<p>Combat exhaustion and weakness with essential electrolytes, ensuring peak performance and vitality.<\/p><p><a href=\"\/products\/jakima-electrolite-energy-suplement\" title=\"JAKIMA ELECTROLITE Energy suplement\">SHOP NOW<\/a><\/p>"
-          }
-        },
         "item_YaLw7e": {
           "type": "item",
           "settings": {
@@ -258,10 +258,10 @@
         }
       },
       "block_order": [
+        "item_Na7BBt",
         "item_e7mc8V",
         "item_taxLCU",
         "item_GWjajj",
-        "item_Na7BBt",
         "item_YaLw7e"
       ],
       "custom_css": [
