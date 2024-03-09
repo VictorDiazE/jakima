@@ -93,21 +93,6 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "8e62d560-280b-42cd-a738-3713da060293": {
-          "type": "collection",
-          "settings": {
-            "collection": "horse-care",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_1.png",
-            "subheading": "",
-            "title": "DOG PRODUCTS",
-            "url": "shopify:\/\/collections\/horse-care",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -116,6 +101,36 @@
             "subheading": "",
             "title": "SUPPLEMENTS",
             "url": "shopify:\/\/collections\/horse-supplements",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_UEcEfC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_20_1.png",
+            "subheading": "",
+            "title": "MULTIVITAMINS",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "b7658879-48ad-4776-8a14-fa14aa510956": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_6.png",
+            "subheading": "",
+            "title": "ID MACROCHIPS",
+            "url": "",
             "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -138,29 +153,15 @@
             "overlay_opacity": 30
           }
         },
-        "b7658879-48ad-4776-8a14-fa14aa510956": {
+        "8e62d560-280b-42cd-a738-3713da060293": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_6.png",
+            "collection": "horse-care",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_1.png",
             "subheading": "",
-            "title": "ID MACROCHIPS",
-            "url": "",
+            "title": "DOG PRODUCTS",
+            "url": "shopify:\/\/collections\/horse-care",
             "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_UEcEfC": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "MULTIVITAMINS",
-            "url": "",
-            "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -169,17 +170,17 @@
         }
       },
       "block_order": [
-        "8e62d560-280b-42cd-a738-3713da060293",
         "collection-1",
-        "collection-3",
+        "collection_UEcEfC",
         "b7658879-48ad-4776-8a14-fa14aa510956",
-        "collection_UEcEfC"
+        "collection-3",
+        "8e62d560-280b-42cd-a738-3713da060293"
       ],
       "settings": {
         "full_width": true,
         "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
+        "collections_per_row": 4,
+        "show_progress_bar": true,
         "subheading": "",
         "title": "",
         "content": "",
