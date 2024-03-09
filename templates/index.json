@@ -152,13 +152,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_UEcEfC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "MULTIVITAMINS",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "8e62d560-280b-42cd-a738-3713da060293",
         "collection-1",
         "collection-3",
-        "b7658879-48ad-4776-8a14-fa14aa510956"
+        "b7658879-48ad-4776-8a14-fa14aa510956",
+        "collection_UEcEfC"
       ],
       "settings": {
         "full_width": true,
