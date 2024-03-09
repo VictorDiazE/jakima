@@ -25,34 +25,12 @@
             "background_gradient": ""
           }
         },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_21.png",
-            "mobile_image": "shopify:\/\/shop_images\/2_ab34dc38-a730-4bb1-856f-d68b7f930cba.png",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "title": "Jakima Veterinarian Approved  Dogs Products",
-            "heading_tag": "h2",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/horse-care",
-            "text_color": "#ffffff",
-            "button_background": "#0b2140",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 42,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_22.png",
             "mobile_image": "shopify:\/\/shop_images\/3.png",
-            "content_max_width": 720,
+            "content_max_width": 600,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
@@ -68,12 +46,34 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_17_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Sin_titulo_1500_x_1900_px_1.png",
+            "content_max_width": 500,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "title": "Jakima Veterinarian Approved  Dogs Products",
+            "heading_tag": "h2",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/horse-care",
+            "text_color": "#ffffff",
+            "button_background": "#0b2140",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 42,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "slide-1",
-        "slide-2",
-        "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c"
+        "e3b21637-533d-4fe1-9f04-9c0fda5c8d7c",
+        "slide-2"
       ],
       "custom_css": [
 
@@ -85,7 +85,7 @@
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
-        "cycle_speed": 6,
+        "cycle_speed": 5,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
