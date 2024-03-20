@@ -200,12 +200,12 @@
           "type": "item",
           "settings": {
             "horizontal_position": 48,
-            "vertical_position": 30,
+            "vertical_position": 35,
             "horizontal_position_mobile": 45,
             "vertical_position_mobile": 51,
             "icon_width": 32,
             "title": "FUNGI WOOF",
-            "content": "<p>Gentle yet effective, this lanolin-enriched formula cleanses deeply, tackling fungal and scurf issues while promoting healthy hair growth.<\/p><p><a href=\"\/products\/sheer-force-suplement\" title=\"SHEER FORCE Suplement\">SHOP NOW<\/a><\/p>"
+            "content": "<p>Gentle yet effective, this lanolin-enriched formula cleanses deeply, tackling fungal and scurf issues while promoting healthy hair growth.<\/p><p><a href=\"\/products\/fungi-woof-shampoo-antibacterial-antifungal\" title=\"FUNGI WOOF Shampoo antibacterial-antifungal\">SHOP NOW<\/a><\/p>"
           }
         },
         "item_Na7BBt": {
@@ -217,7 +217,7 @@
             "vertical_position_mobile": 50,
             "icon_width": 32,
             "title": "DOG SHINE",
-            "content": "<p>Formulated for deep cleansing, it removes dirt and odors while leaving your dog's fur soft, shiny, and rejuvenated.<\/p><p><a href=\"\/products\/jakima-electrolite-energy-suplement\" title=\"JAKIMA ELECTROLITE Energy suplement\">SHOP NOW<\/a><\/p>"
+            "content": "<p>Formulated for deep cleansing, it removes dirt and odors while leaving your dog's fur soft, shiny, and rejuvenated.<\/p><p><a href=\"\/products\/dog-shine-deep-cleaning\" title=\"DOG SHINE Deep cleaning\">SHOP NOW<\/a><\/p>"
           }
         },
         "item_e7mc8V": {
@@ -229,19 +229,19 @@
             "vertical_position_mobile": 65,
             "icon_width": 48,
             "title": "FLEXIBILITY DOG",
-            "content": "<p>Designed for cartilage recovery and joint relief, this supplement contains hyaluronic acid and offers analgesic effects to improve mobility and enhance your pet's quality of life.<br\/><br\/><a href=\"\/products\/vita-horse-multivitamin\" title=\"VITA HORSE Multivitamin\">SHOP NOW<\/a><\/p>"
+            "content": "<p>Designed for cartilage recovery and joint relief, this supplement contains hyaluronic acid and offers analgesic effects to improve mobility and enhance your pet's quality of life.<br\/><br\/><a href=\"\/products\/flexibility-dog\" title=\"FLEXIBILITY DOG\">SHOP NOW<\/a><\/p>"
           }
         },
         "item_taxLCU": {
           "type": "item",
           "settings": {
             "horizontal_position": 64,
-            "vertical_position": 34,
+            "vertical_position": 40,
             "horizontal_position_mobile": 74,
             "vertical_position_mobile": 52,
             "icon_width": 32,
             "title": "CITRONELLA",
-            "content": "<p>Infused with essential citronella oil, it cleanses and hydrates your dog's coat while naturally repelling unwanted insects.<\/p><p><a href=\"\/products\/jakima-potion\" title=\"JAKIMA POTION\">SHOP NOW<\/a><\/p>"
+            "content": "<p>Infused with essential citronella oil, it cleanses and hydrates your dog's coat while naturally repelling unwanted insects.<\/p><p><a href=\"\/products\/jakima-citronella-shampoo\" title=\"JAKIMA CITRONELLA Shampoo\">SHOP NOW<\/a><\/p>"
           }
         },
         "item_YaLw7e": {
@@ -253,7 +253,7 @@
             "vertical_position_mobile": 64,
             "icon_width": 32,
             "title": "DOGGO PROTEIN",
-            "content": "<p>Packed with essential amino acids and vitamins, it supports healthy growth and muscle strength, providing the necessary support for an active and energetic lifestyle.<\/p><p><a href=\"\/products\/heal-bumps-anti-shock-gel\" title=\"HEAL BUMPS Anti shock gel\">SHOP NOW<\/a><\/p>"
+            "content": "<p>Packed with essential amino acids and vitamins, it supports healthy growth and muscle strength, providing the necessary support for an active and energetic lifestyle.<\/p><p><a href=\"\/products\/doggo-protein\" title=\"DOGGO PROTEIN\">SHOP NOW<\/a><\/p>"
           }
         }
       },
@@ -270,7 +270,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_22_1.png",
+        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_20240320_110307_0000.png",
         "mobile_image": "shopify:\/\/shop_images\/Sin_titulo_1500_x_1900_px_4_1.png",
         "title": "",
         "content": "",
