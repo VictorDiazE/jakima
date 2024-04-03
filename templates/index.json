@@ -125,6 +125,7 @@
         },
         "b7658879-48ad-4776-8a14-fa14aa510956": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/3_2.png",
