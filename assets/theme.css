@@ -9826,3 +9826,8 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+
+.privacy-bar{
+  z-index:99;
+}
