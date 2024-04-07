@@ -26,7 +26,8 @@
         "item_LX4AKy"
       ],
       "custom_css": [
-        ".impact-text__text {font-weight: 800; font-size: 180px; letter-spacing: 0.1px;}",
+        ".impact-text__text {font-weight: 800; font-size: 76px; letter-spacing: 0.1px;}",
+        "@media screen and (min-width: 768px) {.impact-text__text {font-weight: 800; font-size: 180px; letter-spacing: 0.1px;}}",
         ".section-blends {padding-bottom: 16px;}"
       ],
       "settings": {
