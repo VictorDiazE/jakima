@@ -27,7 +27,7 @@
       ],
       "custom_css": [
         ".impact-text__text {font-weight: 800; font-size: 180px; letter-spacing: 0.1px;}",
-        ".section-blends{padding-bottom:16px;}"
+        ".section-blends {padding-bottom: 16px;}"
       ],
       "settings": {
         "full_width": true,
@@ -69,7 +69,7 @@
         "show_progress_bar": true,
         "products_count": 28,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
         "title": "",
         "content": "",
