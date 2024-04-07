@@ -6,6 +6,44 @@
       "settings": {
       }
     },
+    "impact_text_HRNdxX": {
+      "type": "impact-text",
+      "blocks": {
+        "item_LX4AKy": {
+          "type": "item",
+          "settings": {
+            "title": "20% OFF",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_LX4AKy"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.text-gradient {font-size: 80px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "featured_collection_LUtVXb": {
       "type": "featured-collection",
       "settings": {
@@ -48,6 +86,7 @@
   },
   "order": [
     "main",
+    "impact_text_HRNdxX",
     "featured_collection_LUtVXb"
   ]
 }
