@@ -1,0 +1,374 @@
+{%- liquid
+  assign s_id = section.id
+
+  assign main_title_value = section.settings.main_title
+  assign prefix_text_value = section.settings.prefix_text
+
+  assign mf_namespace = section.settings.metafield_namespace
+  assign mf_key = section.settings.metafield_key
+
+  assign linked_collections_list = nil
+  assign linked_collections_count = 0
+  assign current_page_collection = collection
+
+  if current_page_collection != blank and mf_namespace != blank and mf_key != blank and current_page_collection.metafields[mf_namespace] != blank and current_page_collection.metafields[mf_namespace][mf_key] != blank
+    if current_page_collection.metafields[mf_namespace][mf_key].type == 'list.collection_reference'
+      assign linked_collections_list = current_page_collection.metafields[mf_namespace][mf_key].value
+      if linked_collections_list.size > 0
+        assign linked_collections_count = linked_collections_list.size
+      endif
+    endif
+  endif
+
+  assign wrapper_class = 'sai-' | append: s_id | append: '-wrapper'
+  assign container_class = 'sai-' | append: s_id | append: '-container-inner'
+  assign main_title_class = 'sai-' | append: s_id | append: '-main-title'
+  assign links_nav_class = 'sai-' | append: s_id | append: '-links-navigation'
+  assign prefix_class = 'sai-' | append: s_id | append: '-prefix'
+  assign link_class = 'sai-' | append: s_id | append: '-link'
+  assign separator_class = 'sai-' | append: s_id | append: '-separator'
+  assign placeholder_class = 'sai-' | append: s_id | append: '-placeholder-text'
+-%}
+
+<style>
+  .{{ wrapper_class }} {
+    --sai-s-bg-color: {{ section.settings.background_color }};
+    --sai-s-bg-image: {% if section.settings.background_image != blank %}url('{{ section.settings.background_image | image_url }}'){% else %}none{% endif %};
+    --sai-s-bg-position: {{ section.settings.background_image_position }};
+    --sai-s-margin-top: {{ section.settings.margin_top }}px;
+    --sai-s-margin-bottom: {{ section.settings.margin_bottom }}px;
+    --sai-s-padding-top: {{ section.settings.padding_top }}px;
+    --sai-s-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --sai-s-padding-left: {{ section.settings.padding_left }}px;
+    --sai-s-padding-right: {{ section.settings.padding_right }}px;
+    --sai-s-container-width: {{ section.settings.container_width }}px;
+
+    --sai-s-main-title-color: {{ section.settings.main_title_color }};
+    --sai-s-main-title-font-size: {{ section.settings.main_title_font_size }}px;
+    --sai-s-main-title-font-family: {{ section.settings.main_title_font.family }}, {{ section.settings.main_title_font.fallback_families }};
+    --sai-s-main-title-font-style: {{ section.settings.main_title_font.style }};
+    --sai-s-main-title-font-weight: {{ section.settings.main_title_font.weight }};
+
+    --sai-s-links-text-color: {{ section.settings.links_text_color }};
+    --sai-s-links-font-size: {{ section.settings.links_font_size }}px;
+    --sai-s-links-font-family: {{ section.settings.links_font.family }}, {{ section.settings.links_font.fallback_families }};
+    --sai-s-links-font-style: {{ section.settings.links_font.style }};
+    --sai-s-links-font-weight: {{ section.settings.links_font.weight }};
+
+    background-color: var(--sai-s-bg-color);
+    background-image: var(--sai-s-bg-image);
+    background-position: var(--sai-s-bg-position);
+    background-size: cover;
+    margin-top: var(--sai-s-margin-top);
+    margin-bottom: var(--sai-s-margin-bottom);
+    padding-top: var(--sai-s-padding-top);
+    padding-bottom: var(--sai-s-padding-bottom);
+    padding-left: var(--sai-s-padding-left);
+    padding-right: var(--sai-s-padding-right);
+    text-align: center;
+  }
+
+  .sai-{{ section.id }}-page-width-limiter {
+    max-width: var(--sai-s-container-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .{{ main_title_class }} {
+    color: var(--sai-s-main-title-color);
+    font-family: var(--sai-s-main-title-font-family);
+    font-style: var(--sai-s-main-title-font-style);
+    font-weight: var(--sai-s-main-title-font-weight);
+    font-size: var(--sai-s-main-title-font-size);
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .{{ links_nav_class }} {
+    color: var(--sai-s-links-text-color);
+    font-family: var(--sai-s-links-font-family);
+    font-style: var(--sai-s-links-font-style);
+    font-weight: var(--sai-s-links-font-weight);
+    font-size: var(--sai-s-links-font-size);
+    line-height: 1.6;
+  }
+
+  .{{ prefix_class }} {
+    margin-right: 5px;
+  }
+
+  .{{ link_class }} {
+    color: var(--sai-s-links-text-color);
+    text-decoration: none;
+  }
+  .{{ link_class }}:hover,
+  .{{ link_class }}:focus {
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+
+  .{{ separator_class }} {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .{{ placeholder_class }} {
+    color: var(--sai-s-links-text-color);
+    font-size: var(--sai-s-links-font-size);
+    opacity: 0.7;
+  }
+</style>
+
+<div class="{{ wrapper_class }}">
+  <div class="{% if section.settings.layout == 'container' %}sai-{{ section.id }}-page-width-limiter {% endif %}{{ container_class }}">
+    {%- if main_title_value != blank -%}
+      <h2 class="{{ main_title_class }}">{{ main_title_value | escape }}</h2>
+    {%- endif -%}
+
+    {%- if prefix_text_value != blank or linked_collections_count > 0 or request.design_mode -%}
+      <nav class="{{ links_nav_class }}" aria-label="{{ 'general.navigation.related_collections' | t: default: 'Related collections' }}">
+        {%- if prefix_text_value != blank -%}
+          <span class="{{ prefix_class }}">{{ prefix_text_value | escape }}</span>
+        {%- endif -%}
+
+        {%- if linked_collections_count > 0 -%}
+          {%- for linked_collection_item in linked_collections_list -%}
+            <a href="{{ linked_collection_item.url }}" class="{{ link_class }}">
+              {{ linked_collection_item.title | escape }}
+            </a>
+            {%- unless forloop.last -%}
+              <span class="{{ separator_class }}">|</span>
+            {%- endunless -%}
+          {%- endfor -%}
+        {%- elsif request.design_mode -%}
+          <p class="{{ placeholder_class }}">
+            {%- if mf_namespace == blank or mf_key == blank -%}
+              Please configure metafield namespace and key in section settings.
+            {%- elsif current_page_collection == blank -%}
+              This section is intended for collection pages. No collection context found.
+            {%- else -%}
+              No collections found in metafield '{{ mf_namespace }}.{{ mf_key }}' for this collection, or metafield is not a valid list of collections.
+            {%- endif -%}
+          </p>
+        {%- endif -%}
+      </nav>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "AI: Linked Collections",
+  "tag": "section",
+  "class": "sai-linked-collections-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section created by SectionAI"
+    },
+    {
+      "type": "paragraph",
+      "content": "This section is created by SectionAI. You can edit the section by clicking [here](https://admin.shopify.com/store/test-victor-diaz/apps/sectionai/app/sections/ac98b500-3e32-410f-abc3-c6e392967650/edit)"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "fullwidth",
+          "label": "Fullwidth"
+        },
+        {
+          "value": "container",
+          "label": "Container"
+        }
+      ],
+      "default": "fullwidth"
+    },
+    {
+      "type": "number",
+      "id": "container_width",
+      "label": "Container Width (px)",
+      "info": "Applies if Layout is 'Container'. Min 300, Max 1600.",
+      "default": 1200
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#222222"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "select",
+      "id": "background_image_position",
+      "label": "Background Image Position",
+      "options": [
+        {
+          "value": "left top",
+          "label": "Left Top"
+        },
+        {
+          "value": "center top",
+          "label": "Center Top"
+        },
+        {
+          "value": "right top",
+          "label": "Right Top"
+        },
+        {
+          "value": "left center",
+          "label": "Left Center"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "right center",
+          "label": "Right Center"
+        },
+        {
+          "value": "left bottom",
+          "label": "Left Bottom"
+        },
+        {
+          "value": "center bottom",
+          "label": "Center Bottom"
+        },
+        {
+          "value": "right bottom",
+          "label": "Right Bottom"
+        }
+      ],
+      "default": "center center"
+    },
+    {
+      "type": "number",
+      "id": "margin_top",
+      "label": "Top Margin (px)",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "margin_bottom",
+      "label": "Bottom Margin (px)",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Top Padding (px)",
+      "default": 15
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Bottom Padding (px)",
+      "default": 15
+    },
+    {
+      "type": "number",
+      "id": "padding_left",
+      "label": "Left Padding (px)",
+      "default": 15
+    },
+    {
+      "type": "number",
+      "id": "padding_right",
+      "label": "Right Padding (px)",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Title Text",
+      "default": "MIU MIU WOMEN"
+    },
+    {
+      "type": "color",
+      "id": "main_title_color",
+      "label": "Title Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "number",
+      "id": "main_title_font_size",
+      "label": "Title Font Size (px)",
+      "default": 28
+    },
+    {
+      "type": "font_picker",
+      "id": "main_title_font",
+      "label": "Title Font",
+      "default": "serif"
+    },
+    {
+      "type": "header",
+      "content": "Links Configuration"
+    },
+    {
+      "type": "text",
+      "id": "metafield_namespace",
+      "label": "Metafield Namespace",
+      "info": "Namespace of the collection metafield (e.g., 'custom'). The metafield must be type 'List of Collections'.",
+      "default": "custom"
+    },
+    {
+      "type": "text",
+      "id": "metafield_key",
+      "label": "Metafield Key",
+      "info": "Key of the collection metafield (e.g., 'related_collections').",
+      "default": "related_collections"
+    },
+    {
+      "type": "header",
+      "content": "Links Styling"
+    },
+    {
+      "type": "text",
+      "id": "prefix_text",
+      "label": "Links Prefix Text",
+      "default": "Find out more:"
+    },
+    {
+      "type": "color",
+      "id": "links_text_color",
+      "label": "Links & Prefix Text Color",
+      "default": "#CCCCCC"
+    },
+    {
+      "type": "number",
+      "id": "links_font_size",
+      "label": "Links & Prefix Font Size (px)",
+      "default": 14
+    },
+    {
+      "type": "font_picker",
+      "id": "links_font",
+      "label": "Links & Prefix Font",
+      "default": "sans-serif"
+    }
+  ],
+  "presets": [
+    {
+      "name": "AI: Linked Collections",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
